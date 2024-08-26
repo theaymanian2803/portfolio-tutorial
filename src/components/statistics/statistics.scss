@@ -1,0 +1,45 @@
+.statistics {
+  height: 300px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.7rem;
+  .numbers {
+    h3 {
+      font-family: var(--main-font);
+      letter-spacing: 4px;
+      line-height: 50px;
+      color: orange;
+    }
+    h2 {
+      font-family: var(--primary-font);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .statistics {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    .numbers {
+      h3 {
+        font-family: var(--main-font);
+        letter-spacing: 4px;
+        line-height: 50px;
+        color: orange;
+      }
+      h2 {
+        font-family: var(--primary-font);
+      }
+    }
+  }
+}
